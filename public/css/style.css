@@ -13,12 +13,12 @@
   src: url(../fonts/ProximaNova-Semibold.otf);
 }
 .navbar{
-  height: 100px;
+  height: 80px;
   vertical-align: 'center';
 }
 .navbar-nav li a{
-  font-size:20px;
-  margin-top:25px; 
+  font-size:18px;
+  margin-top:15px; 
   font-family: georgia;
 }
 .navbar-nav li a.active{
@@ -58,7 +58,6 @@ h3 {
 .about,.programs,.opportunities,.news,.contact{
   padding-top: 100px;
   text-align: center;
-  margin-left: 50px;
   margin-right: 50px;
   font-family: georgia;
   
@@ -75,8 +74,8 @@ h3 {
 }
 .content{
   text-align: center;
-  font-size: 25px;
-  line-height: 40px;
+  font-size: 18px;
+  line-height: 25px;
   color:#7C7D7E;
   font-family: proximaBold;
 }
@@ -108,7 +107,6 @@ h3 {
 }
 .members{
   text-align: center;
-  margin-top: 100px;
 }
 .members h1{
   font-family: georgia;
@@ -135,8 +133,8 @@ h3 {
 	border-radius: 50%;	/* relative value */
 	/*box-shadow: 0px 0px 5px rgba(0,0,0,0.4);*/
 	transition: linear 0.25s;
-  height: 200px;
-  width: 200px;
+  height: 152px;
+  width: 150px;
 
 }
 .circle img {
@@ -152,15 +150,15 @@ a.circle {
   color: transparent;
 } /* IE fix: removes blue border */	
 .memberItem{
-  height: 300px;
-  width:400px;
+  height: 250px;
+  width:300px;
 	display: inline-block;	/* circle wraps image */
 }
 
 
 figure{
-  width: 400px;
-  height: 300px;
+  width: 250px;
+  height: 150px;
   overflow: hidden;
   position: relative;
   display: inline-block;
@@ -228,48 +226,18 @@ figure:hover img{
           transform: scale3d(1.2, 1.2, 1);
 }
 
-
-
-/*font-face*/
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 100;
-  src: local('Lato Hairline'), local('Lato-Hairline'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/boeCNmOCCh-EWFLSfVffDg.woff) format('woff');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/KT3KS9Aol4WfR6Vas8kNcg.woff) format('woff');
-}
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/9k-RPmcnxYEPm8CNFsH2gg.woff) format('woff');
-}
-
-@font-face {
-  font-family: 'Lato';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'), url(http://themes.googleusercontent.com/static/fonts/lato/v6/wkfQbvfT_02e2IWO3yYueQ.woff) format('woff');
-}
-
 .opportunity-item{
-  width: 400px;
+  width: 270px;
   vertical-align: top;
-  height: 450px;
   margin: 10px;
   display: inline-block;
 }
 .opportunity-item h3{
+  font-size: 18px;
   font-family: proximaBold;
 }
 .opportunity-item div{
-  font-size: 20px;
+  font-size: 16px;
   font-family: proximaRegular;
 }
 .businessOpportunity{
@@ -294,21 +262,20 @@ figure:hover img{
   margin-top: 100px;
 }
 .contact h1{
-  font-size: 50px;
+  font-size: 30px;
 }
 .contactDetails{
   margin: 0;
 }
 
 .contactDetails div{
-  font-size: 30px;
+  font-size: 20px;
   font-family: proximaRegular;
 }
 .contactDetails div a{
   color:#fff;
 }
 .iframe{
-  margin-left:10%;
 }
 .contactMeans{
   margin-top: 30px;
